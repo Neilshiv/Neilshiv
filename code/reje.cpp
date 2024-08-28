@@ -29,7 +29,7 @@ int maxoccurence(int arr[], int n)
 }
 int main()
 {
-  int arr[15] = {1, 6, 4, 8, 7, 9, 6, 7, 8, 8, 5, 8, 1, 4, 9};
+  int arr[15] = {1, 6, 4, 8, 7, 9, 6, 7, 8, 8, 5, 7, 8, 1, 4};
   int n = 15;
 
   // vector<int> result = maxoccurence(arr, 12);
@@ -37,6 +37,6 @@ int main()
   // {
   //   cout << result[i] << " ";
   // }
-  int result = maxoccurence(arr, 12);
+  int result = maxoccurence(arr, 15);
   cout << "result:" << result;
 }
